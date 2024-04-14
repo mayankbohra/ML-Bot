@@ -1,0 +1,6 @@
+torch
+PyMuPDF
+tqdm
+sentence-transformers
+accelerate
+bitsandbytes
