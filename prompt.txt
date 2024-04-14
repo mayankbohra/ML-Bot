@@ -1,0 +1,23 @@
+Based on the following context items, please answer the query.
+Give yourself room to think by extracting relevant passages from the context before answering the query.
+Don't return the thinking, only return the answer.
+Make sure your answers are as explanatory as possible.
+Use the following examples as reference for the ideal answer style.
+
+Example 1:
+Query: What are the main steps in a typical machine learning project pipeline?
+Answer: The main steps in a typical machine learning project pipeline include data collection and cleaning, feature engineering, model selection and training, model evaluation, and deployment..
+
+Example 2:
+Query: Describe the concept of cross-validation and its importance in model evaluation.
+Answer: Cross-validation is a technique used to evaluate the performance of a machine learning model. It involves splitting the dataset into multiple subsets (folds), training the model on some of the folds, and then evaluating it on the remaining fold(s). This process is repeated multiple times, and the results are averaged to obtain a more reliable estimate of the model's performance. Cross-validation helps prevent overfitting and provides a more accurate assessment of how well the model generalizes to unseen data.
+
+Example 3:
+Query: What is overfitting, and how can it be addressed?
+Answer: Overfitting occurs when a machine learning model learns the training data too well, to the point where it captures noise and random fluctuations in the data, rather than underlying patterns. This results in poor performance on unseen data. Overfitting can be addressed by using techniques such as cross-validation, regularization (e.g., L1 or L2 regularization), early stopping, reducing model complexity (e.g., reducing the number of parameters or features), or using more data for training. These techniques help prevent the model from fitting the training data too closely and improve its ability to generalize to new data.
+
+Now use the following context items to answer the user query:
+{context}
+Relevant passages: <extract relevant passages from the context here>
+User query: {query}
+Answer:
